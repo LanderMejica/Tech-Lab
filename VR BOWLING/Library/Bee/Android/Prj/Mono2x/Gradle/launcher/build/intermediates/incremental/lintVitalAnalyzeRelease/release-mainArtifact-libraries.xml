@@ -1,0 +1,45 @@
+<libraries>
+  <library
+      name="/Users/landermejica/Desktop/VR BOWLING/Library/Bee/Android/Prj/Mono2x/Gradle@@:unityLibrary::release"
+      jars="/Users/landermejica/Desktop/VR BOWLING/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/.transforms/89da79ff048dd0892a2d7e75209a47cf/transformed/out/jars/classes.jar:/Users/landermejica/Desktop/VR BOWLING/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/.transforms/89da79ff048dd0892a2d7e75209a47cf/transformed/out/jars/libs/unity-classes.jar"
+      resolved="Gradle:unityLibrary:unspecified"
+      folder="/Users/landermejica/Desktop/VR BOWLING/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/.transforms/89da79ff048dd0892a2d7e75209a47cf/transformed/out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="__local_aars__:/Users/landermejica/Desktop/VR BOWLING/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/libs/unity-classes.jar:unspecified@jar"
+      jars="/Users/landermejica/Desktop/VR BOWLING/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/libs/unity-classes.jar"
+      resolved="__local_aars__:/Users/landermejica/Desktop/VR BOWLING/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/libs/unity-classes.jar:unspecified"/>
+  <library
+      name=":OVRPlugin:@aar"
+      jars="/Users/landermejica/.gradle/caches/transforms-3/e5ee16f0d1ed3a0cf0e19b4ba363852a/transformed/OVRPlugin/jars/classes.jar"
+      resolved=":OVRPlugin:"
+      folder="/Users/landermejica/.gradle/caches/transforms-3/e5ee16f0d1ed3a0cf0e19b4ba363852a/transformed/OVRPlugin"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="/Users/landermejica/Desktop/VR BOWLING/Library/Bee/Android/Prj/Mono2x/Gradle@@:unityLibrary:xrmanifest.androidlib::release"
+      jars="/Users/landermejica/Desktop/VR BOWLING/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/xrmanifest.androidlib/build/.transforms/0ad1e3b1e88406cec4317a6e083a1fd2/transformed/out/jars/classes.jar"
+      resolved="Gradle.unityLibrary:xrmanifest.androidlib:unspecified"
+      folder="/Users/landermejica/Desktop/VR BOWLING/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/xrmanifest.androidlib/build/.transforms/0ad1e3b1e88406cec4317a6e083a1fd2/transformed/out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+</libraries>
