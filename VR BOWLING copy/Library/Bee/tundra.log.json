@@ -501,6 +501,7 @@
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"MovedFromExtractorCombine Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll.mvfrm","enqueuedNodeIndex":411,"enqueueingNodeAnnotation":"Csc Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll (+2 others)","enqueueingNodeIndex":393}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"WriteText Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp","enqueuedNodeIndex":410,"enqueueingNodeAnnotation":"MovedFromExtractorCombine Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll.mvfrm","enqueueingNodeIndex":411}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb","enqueuedNodeIndex":501,"enqueueingNodeAnnotation":"ScriptAssemblies","enqueueingNodeIndex":6}
+<<<<<<< Updated upstream
 {"msg":"newNode","annotation":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.DeviceSimulatorModule.dll_E61026A53D3C117A.mvfrm","index":13}
 {"msg":"newNode","annotation":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Android.Types.dll_FFC9F31620F684B3.mvfrm","index":8}
 {"msg":"newNode","annotation":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.VideoModule.dll_3C8F0911E727B81C.mvfrm","index":90}
@@ -4060,3 +4061,5 @@
 >>>>>>> Stashed changes
 {"msg":"newNode","annotation":"ScriptAssemblies","index":6}
 {"msg":"runNodeAction","annotation":"ScriptAssemblies","index":6}
+=======
+>>>>>>> Stashed changes
