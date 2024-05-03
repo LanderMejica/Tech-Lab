@@ -1,23 +1,30 @@
+Unity Editor version:    2022.3.20f1 (61c2feb0970d)
+Branch:                  2022.3/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.4.1 (Build 23E224)
+Darwin version:          23.4.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
 Using pre-set license
-Built from '2022.3/release' branch; Version is '2022.3.20f1 (61c2feb0970d) revision 6406910'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16068 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+Pro License: YES
 
 COMMAND LINE ARGUMENTS:
-C:\Users\melod\OneDrive\Desktop\Unity Hub\2022.3.20f1\Editor\Unity.exe
+/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/melod/OneDrive/Documents/GitHub/Tech-Lab/VR BOWLING copy
+/Users/landermejica/Documents/Tech Lab/GitHub/Tech-Lab/VR BOWLING copy
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64568
-Successfully changed project path to: C:/Users/melod/OneDrive/Documents/GitHub/Tech-Lab/VR BOWLING copy
-C:/Users/melod/OneDrive/Documents/GitHub/Tech-Lab/VR BOWLING copy
+58042
+Successfully changed project path to: /Users/landermejica/Documents/Tech Lab/GitHub/Tech-Lab/VR BOWLING copy
+/Users/landermejica/Documents/Tech Lab/GitHub/Tech-Lab/VR BOWLING copy
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,70 +56,69 @@ C:/Users/melod/OneDrive/Documents/GitHub/Tech-Lab/VR BOWLING copy
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [2584] Host "[IP] 10.105.63.38 [Port] 0 [Flags] 2 [Guid] 4095495681 [EditorId] 4095495681 [Version] 1048832 [Id] WindowsEditor(7,Mellowblossom) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8302262976] Host "[IP] 10.105.62.42 [Port] 0 [Flags] 2 [Guid] 1757146714 [EditorId] 1757146714 [Version] 1048832 [Id] OSXEditor(0,Landers-Laptop.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [2584] Host "[IP] 10.105.63.38 [Port] 0 [Flags] 2 [Guid] 4095495681 [EditorId] 4095495681 [Version] 1048832 [Id] WindowsEditor(7,Mellowblossom) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8302262976] Host "[IP] 10.105.62.42 [Port] 0 [Flags] 2 [Guid] 1757146714 [EditorId] 1757146714 [Version] 1048832 [Id] OSXEditor(0,Landers-Laptop.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 67.93 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 2.32 ms.
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 5.10 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 3.63 ms.
 Initialize engine version: 2022.3.20f1 (61c2feb0970d)
-[Subsystems] Discovering subsystems at path C:/Users/melod/OneDrive/Desktop/Unity Hub/2022.3.20f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/melod/OneDrive/Documents/GitHub/Tech-Lab/VR BOWLING copy/Assets
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/landermejica/Documents/Tech Lab/GitHub/Tech-Lab/VR BOWLING copy/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0xa7a1)
-    Vendor:   Intel
-    VRAM:     8034 MB
-    Driver:   31.0.101.4575
+ preferred device: Apple M1 Pro (high power)
+Metal devices available: 1
+0: Apple M1 Pro (high power)
+Using device Apple M1 Pro (high power)
+Initializing Metal device caps: Apple M1 Pro
 Initialize mono
-Mono path[0] = 'C:/Users/melod/OneDrive/Desktop/Unity Hub/2022.3.20f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Users/melod/OneDrive/Desktop/Unity Hub/2022.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Users/melod/OneDrive/Desktop/Unity Hub/2022.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56076
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56232
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Users/melod/OneDrive/Desktop/Unity Hub/2022.3.20f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Users/melod/OneDrive/Desktop/Unity Hub/2022.3.20f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: C:/Users/melod/OneDrive/Desktop/Unity Hub/2022.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.030278 seconds.
-- Loaded All Assemblies, in  0.747 seconds
-Native extension for WindowsStandalone target not found
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.20f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.20f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.001389 seconds.
+- Loaded All Assemblies, in  0.254 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 757 ms
+Android Extension - Scanning For ADB Devices 62 ms
+Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.465 seconds
-Domain Reload Profiling: 2208ms
-	BeginReloadAssembly (240ms)
+- Finished resetting the current domain, in  0.283 seconds
+Domain Reload Profiling: 537ms
+	BeginReloadAssembly (67ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (3ms)
-	RebuildCommonClasses (57ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (127ms)
-	LoadAllAssembliesAndSetupDomain (300ms)
-		LoadAssemblies (237ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (114ms)
+		LoadAssemblies (66ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (293ms)
-			TypeCache.Refresh (291ms)
-				TypeCache.ScanAssembly (264ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (1466ms)
+		AnalyzeDomain (112ms)
+			TypeCache.Refresh (112ms)
+				TypeCache.ScanAssembly (101ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (284ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1342ms)
+		SetupLoadedEditorAssemblies (239ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1013ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (141ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (226ms)
-			ProcessInitializeOnLoadMethodAttributes (94ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (70ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -120,100 +126,10 @@ Domain Reload Profiling: 2208ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file data-0000022822683040 doesn't match image C:\Users\melod\OneDrive\Documents\GitHub\Tech-Lab\VR BOWLING copy\Library\ScriptAssemblies\Assembly-CSharp.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022822687A50 doesn't match image C:\Users\melod\OneDrive\Documents\GitHub\Tech-Lab\VR BOWLING copy\Library\ScriptAssemblies\Unity.XR.Management.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022822689C60 doesn't match image C:\Users\melod\OneDrive\Documents\GitHub\Tech-Lab\VR BOWLING copy\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000228210B6020 doesn't match image C:\Users\melod\OneDrive\Documents\GitHub\Tech-Lab\VR BOWLING copy\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000228210B6020 doesn't match image C:\Users\melod\OneDrive\Documents\GitHub\Tech-Lab\VR BOWLING copy\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227FEFD5810 doesn't match image C:\Users\melod\OneDrive\Documents\GitHub\Tech-Lab\VR BOWLING copy\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227FEFD5810 doesn't match image C:\Users\melod\OneDrive\Documents\GitHub\Tech-Lab\VR BOWLING copy\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022822310E30 doesn't match image C:\Users\melod\OneDrive\Documents\GitHub\Tech-Lab\VR BOWLING copy\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022822310E30 doesn't match image C:\Users\melod\OneDrive\Documents\GitHub\Tech-Lab\VR BOWLING copy\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022822310E30 doesn't match image C:\Users\melod\OneDrive\Documents\GitHub\Tech-Lab\VR BOWLING copy\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000228210CDE30 doesn't match image C:\Users\melod\OneDrive\Documents\GitHub\Tech-Lab\VR BOWLING copy\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227FEFD5810 doesn't match image C:\Users\melod\OneDrive\Documents\GitHub\Tech-Lab\VR BOWLING copy\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000228210CDE30 doesn't match image C:\Users\melod\OneDrive\Documents\GitHub\Tech-Lab\VR BOWLING copy\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022821AC7020 doesn't match image C:\Users\melod\OneDrive\Documents\GitHub\Tech-Lab\VR BOWLING copy\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022822313C40 doesn't match image C:\Users\melod\OneDrive\Documents\GitHub\Tech-Lab\VR BOWLING copy\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022820C298A0 doesn't match image C:\Users\melod\OneDrive\Documents\GitHub\Tech-Lab\VR BOWLING copy\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022820C300B0 doesn't match image C:\Users\melod\OneDrive\Documents\GitHub\Tech-Lab\VR BOWLING copy\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022821AC7020 doesn't match image C:\Users\melod\OneDrive\Documents\GitHub\Tech-Lab\VR BOWLING copy\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022821AFE630 doesn't match image C:\Users\melod\OneDrive\Documents\GitHub\Tech-Lab\VR BOWLING copy\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002282241A010 doesn't match image C:\Users\melod\OneDrive\Documents\GitHub\Tech-Lab\VR BOWLING copy\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022821AFE630 doesn't match image C:\Users\melod\OneDrive\Documents\GitHub\Tech-Lab\VR BOWLING copy\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022822313C40 doesn't match image C:\Users\melod\OneDrive\Documents\GitHub\Tech-Lab\VR BOWLING copy\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000228210CDE30 doesn't match image C:\Users\melod\OneDrive\Documents\GitHub\Tech-Lab\VR BOWLING copy\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000228215F4810 doesn't match image C:\Users\melod\OneDrive\Documents\GitHub\Tech-Lab\VR BOWLING copy\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022821805010 doesn't match image C:\Users\melod\OneDrive\Documents\GitHub\Tech-Lab\VR BOWLING copy\Library\ScriptAssemblies\Unity.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227FF029630 doesn't match image C:\Users\melod\OneDrive\Documents\GitHub\Tech-Lab\VR BOWLING copy\Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022821B14640 doesn't match image C:\Users\melod\OneDrive\Documents\GitHub\Tech-Lab\VR BOWLING copy\Library\ScriptAssemblies\Unity.XR.Oculus.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022822313C40 doesn't match image C:\Users\melod\OneDrive\Documents\GitHub\Tech-Lab\VR BOWLING copy\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022822313C40 doesn't match image C:\Users\melod\OneDrive\Documents\GitHub\Tech-Lab\VR BOWLING copy\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022821635C20 doesn't match image C:\Users\melod\OneDrive\Documents\GitHub\Tech-Lab\VR BOWLING copy\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022821635C20 doesn't match image C:\Users\melod\OneDrive\Documents\GitHub\Tech-Lab\VR BOWLING copy\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022821B14640 doesn't match image C:\Users\melod\OneDrive\Documents\GitHub\Tech-Lab\VR BOWLING copy\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002282260C030 doesn't match image C:\Users\melod\OneDrive\Documents\GitHub\Tech-Lab\VR BOWLING copy\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002282262CE40 doesn't match image C:\Users\melod\OneDrive\Documents\GitHub\Tech-Lab\VR BOWLING copy\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022822645650 doesn't match image C:\Users\melod\OneDrive\Documents\GitHub\Tech-Lab\VR BOWLING copy\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022821B14640 doesn't match image C:\Users\melod\OneDrive\Documents\GitHub\Tech-Lab\VR BOWLING copy\Library\ScriptAssemblies\Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022821805010 doesn't match image C:\Users\melod\OneDrive\Documents\GitHub\Tech-Lab\VR BOWLING copy\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002282175D830 doesn't match image C:\Users\melod\OneDrive\Documents\GitHub\Tech-Lab\VR BOWLING copy\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000228219DF010 doesn't match image C:\Users\melod\OneDrive\Documents\GitHub\Tech-Lab\VR BOWLING copy\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002282175D830 doesn't match image C:\Users\melod\OneDrive\Documents\GitHub\Tech-Lab\VR BOWLING copy\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022822664870 doesn't match image C:\Users\melod\OneDrive\Documents\GitHub\Tech-Lab\VR BOWLING copy\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022822664870 doesn't match image C:\Users\melod\OneDrive\Documents\GitHub\Tech-Lab\VR BOWLING copy\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002282164D830 doesn't match image C:\Users\melod\OneDrive\Documents\GitHub\Tech-Lab\VR BOWLING copy\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022821A17A20 doesn't match image C:\Users\melod\OneDrive\Documents\GitHub\Tech-Lab\VR BOWLING copy\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022821771E50 doesn't match image C:\Users\melod\OneDrive\Documents\GitHub\Tech-Lab\VR BOWLING copy\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.541 seconds
-Refreshing native plugins compatible for Editor in 10.82 ms, found 6 plugins.
-Native extension for WindowsStandalone target not found
+- Loaded All Assemblies, in  0.425 seconds
+Refreshing native plugins compatible for Editor in 1.43 ms, found 3 plugins.
 Native extension for Android target not found
+Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
@@ -229,643 +145,67 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.401 seconds
-Domain Reload Profiling: 2933ms
-	BeginReloadAssembly (316ms)
+- Finished resetting the current domain, in  0.454 seconds
+Domain Reload Profiling: 879ms
+	BeginReloadAssembly (85ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (47ms)
-	RebuildCommonClasses (68ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (67ms)
-	LoadAllAssembliesAndSetupDomain (1058ms)
-		LoadAssemblies (817ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (280ms)
+		LoadAssemblies (157ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (410ms)
-			TypeCache.Refresh (350ms)
-				TypeCache.ScanAssembly (318ms)
-			ScanForSourceGeneratedMonoScriptInfo (43ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (1402ms)
+		AnalyzeDomain (158ms)
+			TypeCache.Refresh (142ms)
+				TypeCache.ScanAssembly (126ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (454ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (996ms)
+		SetupLoadedEditorAssemblies (315ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (55ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (131ms)
-			ProcessInitializeOnLoadAttributes (741ms)
-			ProcessInitializeOnLoadMethodAttributes (50ms)
-			AfterProcessingInitializeOnLoad (15ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (239ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
-Refreshing native plugins compatible for Editor in 12.31 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.13 ms.
+		AwakeInstancesAfterBackupRestoration (2ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.63 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
 Unloading 4344 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (58.6 KB). Loaded Objects now: 4818.
-Memory consumption went from 233.6 MB to 233.6 MB.
-Total: 6.835800 ms (FindLiveObjects: 0.678700 ms CreateObjectMapping: 0.279800 ms MarkObjects: 5.550700 ms  DeleteObjects: 0.323300 ms)
+Unloading 50 unused Assets / (53.2 KB). Loaded Objects now: 4818.
+Memory consumption went from 239.3 MB to 239.2 MB.
+Total: 3.119709 ms (FindLiveObjects: 0.120500 ms CreateObjectMapping: 0.055583 ms MarkObjects: 2.748541 ms  DeleteObjects: 0.194375 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 157063.345167 seconds.
-  path: Assets/VRInteractions/Examples/Assets/Models/1.fbx
-  artifactKey: Guid(8c5f0e45ad7066a4782ae9389c9d62c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRInteractions/Examples/Assets/Models/1.fbx using Guid(8c5f0e45ad7066a4782ae9389c9d62c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3338fe3b3ca69779e7d3f7829f337b1a') in 0.327261 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Models/art_5.fbx
-  artifactKey: Guid(e528381f299d2ce4db9f7e803942a77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Models/art_5.fbx using Guid(e528381f299d2ce4db9f7e803942a77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20c3c49eb3be3e28a857e35d504c76b5') in 0.058720 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/SciFiProps/Models/Barrel.fbx
-  artifactKey: Guid(b8892b07d6a3adc498546b6e104ca7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SciFiProps/Models/Barrel.fbx using Guid(b8892b07d6a3adc498546b6e104ca7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd13b3b68589a610e6a7d9be03598b42') in 0.038528 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/SciFiProps/Models/BarrelCollider.fbx
-  artifactKey: Guid(90cfe52fcdceef84eb79642595ab04ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SciFiProps/Models/BarrelCollider.fbx using Guid(90cfe52fcdceef84eb79642595ab04ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96eec879445c48c54e60b9f22b66d080') in 0.036007 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000353 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Models/blank_wall_B.fbx
-  artifactKey: Guid(177afface069d0c47af680d3f8a5815e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Models/blank_wall_B.fbx using Guid(177afface069d0c47af680d3f8a5815e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19f999853511de9a9b791025d37536f9') in 0.030721 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Models/battery_medium.fbx
-  artifactKey: Guid(c1c48e1341ea35d4fa172cdb915ed140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Models/battery_medium.fbx using Guid(c1c48e1341ea35d4fa172cdb915ed140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cce456f42131be151349c63068eac8a0') in 0.047641 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Models/Apt_Kit_01.fbx
-  artifactKey: Guid(cd0bf29c9c9af6f4098b74076d25f0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Models/Apt_Kit_01.fbx using Guid(cd0bf29c9c9af6f4098b74076d25f0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aa4416ce59d7df0bc952010869140e7') in 0.336404 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 99
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Models/Apt_Rail.fbx
-  artifactKey: Guid(7c69e40725f2d1a4687ecf3e80b2dfac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Models/Apt_Rail.fbx using Guid(7c69e40725f2d1a4687ecf3e80b2dfac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d03cf08ee47b472cb90a0a72cfcb87f') in 0.069892 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Models/Apt_Kit_02.fbx
-  artifactKey: Guid(c31198774d98d9f43be2ca79cb0a84dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Models/Apt_Kit_02.fbx using Guid(c31198774d98d9f43be2ca79cb0a84dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88a7866c9d3547bf4417d0a6da3c19f0') in 0.605050 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 179
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Models/art_2.fbx
-  artifactKey: Guid(ac4b748f8929540418552255a129f014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Models/art_2.fbx using Guid(ac4b748f8929540418552255a129f014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9867b6cc6dd6a4c0bfb5f3ad7e68199') in 0.049385 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Snack_machines/3dobjects/automaten.fbx
-  artifactKey: Guid(f60d719e03de4db479030669f6e80b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Snack_machines/3dobjects/automaten.fbx using Guid(f60d719e03de4db479030669f6e80b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab3f4bf9287519750ce2d200c53d6f9c') in 0.083362 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Models/art_4.fbx
-  artifactKey: Guid(c03a6c397607c84439753a0506e06e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Models/art_4.fbx using Guid(c03a6c397607c84439753a0506e06e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d066372fe05e32fab7b6cd54350f79e') in 0.031024 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Models/Bathroom_Apt_01.fbx
-  artifactKey: Guid(651d77a525480c84e9327ec0894c0da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Models/Bathroom_Apt_01.fbx using Guid(651d77a525480c84e9327ec0894c0da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b07445120cac45692d8cdeb839dd8c36') in 1.073183 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 290
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Models/Bathroom_Corner_Tiles.fbx
-  artifactKey: Guid(d265ac661f1c8d64386d043a4b4b8f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Models/Bathroom_Corner_Tiles.fbx using Guid(d265ac661f1c8d64386d043a4b4b8f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d1d12aa82e0ca15f67ed74ec19c2d3') in 0.074110 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 2011.935322 seconds.
-  path: Assets/Tv_furniture/Mod/Materials/TV_furniture_main_color.mat
-  artifactKey: Guid(37864df877bf89848938b3b414db656a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tv_furniture/Mod/Materials/TV_furniture_main_color.mat using Guid(37864df877bf89848938b3b414db656a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac67bac245607493a49d60877837701e') in 0.039157 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/WhiteDull.mat
-  artifactKey: Guid(ac3fc719b726a894c8420c2dfeb24547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/WhiteDull.mat using Guid(ac3fc719b726a894c8420c2dfeb24547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcc8895715e2f4ed4f0a68acf1f4fe98') in 0.016201 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/Unity UI Samples/Materials/UI Opaque.mat
-  artifactKey: Guid(8934f7763af9e41ee8845ae14c5473f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity UI Samples/Materials/UI Opaque.mat using Guid(8934f7763af9e41ee8845ae14c5473f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e112f1e47c4647105481973981eaba1c') in 0.020236 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/Unity UI Samples/Models/Materials/vehicle_rcFlyer_dome_mat.mat
-  artifactKey: Guid(27342824cec2ee64ab208b2396c0d82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity UI Samples/Models/Materials/vehicle_rcFlyer_dome_mat.mat using Guid(27342824cec2ee64ab208b2396c0d82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad82f6c8fbac2447f9e45661172103f6') in 0.041740 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/White Wine.mat
-  artifactKey: Guid(aceec14a00995924b88aec0853110efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/White Wine.mat using Guid(aceec14a00995924b88aec0853110efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa8350aa5716c164d781eec77521fbb') in 0.088569 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Misc/WallArt_Apt_02.mat
-  artifactKey: Guid(9fe643e01fee71e4e8eb0fdd60b24118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Materials/Misc/WallArt_Apt_02.mat using Guid(9fe643e01fee71e4e8eb0fdd60b24118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd969297290d6f7a045574b7c0f94bf5a') in 0.051680 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/Unity UI Samples/Models/Materials/vehicle_rcFlyer_metal_mat.mat
-  artifactKey: Guid(879f5ab2d2a90614db855e052b3e2f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity UI Samples/Models/Materials/vehicle_rcFlyer_metal_mat.mat using Guid(879f5ab2d2a90614db855e052b3e2f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5e0a04fc63d9743f81e4924f9999730') in 0.096637 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Unity UI Samples/Models/Materials/vehicle_rcLand_clean_dome_mat.mat
-  artifactKey: Guid(4ba2cec1c455e4ad096f60e2d40c197e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity UI Samples/Models/Materials/vehicle_rcLand_clean_dome_mat.mat using Guid(4ba2cec1c455e4ad096f60e2d40c197e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '838d2a15054aaa2b4089642d3442a9c9') in 0.026155 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Vase_Apt_01.mat
-  artifactKey: Guid(7504f6d8f16670241856bdd867609ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Vase_Apt_01.mat using Guid(7504f6d8f16670241856bdd867609ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4779c64106f31dfafb521553333a711') in 0.017212 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Unity UI Samples/Materials/Window.mat
-  artifactKey: Guid(3cc66b78ab25c204f9b4d415d02e3abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity UI Samples/Materials/Window.mat using Guid(3cc66b78ab25c204f9b4d415d02e3abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c483013ad264380415a7c04b1db95a81') in 0.076823 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Misc/WallArt_Apt_03.mat
-  artifactKey: Guid(a79b9dfdb7c8f754f8d5fd1924ac5fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Materials/Misc/WallArt_Apt_03.mat using Guid(a79b9dfdb7c8f754f8d5fd1924ac5fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afd28704276f64ed79b0250a5a621395') in 0.025429 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/SciFiProps/Material/WireMat.mat
-  artifactKey: Guid(09003d41fd3ede54da00694bd038eb7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SciFiProps/Material/WireMat.mat using Guid(09003d41fd3ede54da00694bd038eb7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89c2cf1962ff77c3ea0d3ff8635f5c49') in 0.030787 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 26.414680 seconds.
-  path: Assets/GeniusCrate_Games/Chair_sofa_set(interior)/Material/Chair_sofa_set/sofa_01_mat.mat
-  artifactKey: Guid(3ed5e9730142cd94e9693a7b577c0c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GeniusCrate_Games/Chair_sofa_set(interior)/Material/Chair_sofa_set/sofa_01_mat.mat using Guid(3ed5e9730142cd94e9693a7b577c0c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03683fa4b9f336e30563ab26bf4bbdc1') in 0.194847 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Example scenes/Materials/Sand.mat
-  artifactKey: Guid(d7ecd8db85bf61440b7ca5d302afd010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Example scenes/Materials/Sand.mat using Guid(d7ecd8db85bf61440b7ca5d302afd010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ada96f18f605f36c193b7d3179b5818d') in 0.022112 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.001617 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Example scenes/Materials/Snow.mat
-  artifactKey: Guid(d6ca041d3b582d94a8f2ad86f4b1e304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Example scenes/Materials/Snow.mat using Guid(d6ca041d3b582d94a8f2ad86f4b1e304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3843b07c752e471d5e12cc1e41ec28bf') in 0.031189 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000094 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Restroom/RR_SoapLabel.mat
-  artifactKey: Guid(66fe060a1655b474b9ce1641bbf19f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Restroom/RR_SoapLabel.mat using Guid(66fe060a1655b474b9ce1641bbf19f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '644949d67cd68af9363267391bac8fda') in 0.083288 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.006789 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Restroom/RR_Panel_01.mat
-  artifactKey: Guid(0dc30470004dae846a55ed5379ef2239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Restroom/RR_Panel_01.mat using Guid(0dc30470004dae846a55ed5379ef2239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f92c97af2080fdb37473cb10ca7d9e83') in 0.048751 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Misc/ScreenMonitor_01.mat
-  artifactKey: Guid(be58df235057e3040b40406a31bcbf58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Materials/Misc/ScreenMonitor_01.mat using Guid(be58df235057e3040b40406a31bcbf58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8139c3d0419098a902eb3619310a3145') in 0.044187 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Unity UI Samples/Materials/Slider Fill.mat
-  artifactKey: Guid(74069a396ef888d4ea96c33784281ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity UI Samples/Materials/Slider Fill.mat using Guid(74069a396ef888d4ea96c33784281ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa4e9aa258db6282be0edf9cbab02e86') in 0.039595 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000089 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Shiny Metal_03.mat
-  artifactKey: Guid(ff2bb81a45899464db5313ff275f8a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Shiny Metal_03.mat using Guid(ff2bb81a45899464db5313ff275f8a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'effc7dc053996be83a55aefe03a4cab0') in 0.026759 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/AurynSky/Arcade Pack 01/Materials/TableTopBarred.mat
-  artifactKey: Guid(26271933147b1924fbacbc549c5b48d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Arcade Pack 01/Materials/TableTopBarred.mat using Guid(26271933147b1924fbacbc549c5b48d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '596a5c49a68110d008f622e8f8157098') in 0.033170 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000127 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Restroom/RR_Soap.mat
-  artifactKey: Guid(c822a288072f2c7478063b318d9f9534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Restroom/RR_Soap.mat using Guid(c822a288072f2c7478063b318d9f9534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '737a677220c1ee7403af561e41346a82') in 0.035825 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/SciFiProps/Material/Screen2Mat.mat
-  artifactKey: Guid(7a7065fed37415b4092d555c42ae2213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SciFiProps/Material/Screen2Mat.mat using Guid(7a7065fed37415b4092d555c42ae2213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95e51d29bfab0cdbd254b530cce77e6f') in 0.111947 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Red Wine.mat
-  artifactKey: Guid(4395ee91f3c8a8245ac3acea11839b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Red Wine.mat using Guid(4395ee91f3c8a8245ac3acea11839b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f6e09f759a54a8b05ae844a85a9c6a') in 0.025533 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/GeniusCrate_Games/Chair_sofa_set(interior)/Material/Chair_sofa_set/Sofa_04_mat.mat
-  artifactKey: Guid(13ca2c721b78cb2499b17d234aa75606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GeniusCrate_Games/Chair_sofa_set(interior)/Material/Chair_sofa_set/Sofa_04_mat.mat using Guid(13ca2c721b78cb2499b17d234aa75606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a005f90490ec18cf71107e1202b8fb35') in 0.083501 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Tv_furniture/Mod/Materials/skybox_procedural.mat
-  artifactKey: Guid(0e589929e46602943b0e4b58382255c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tv_furniture/Mod/Materials/skybox_procedural.mat using Guid(0e589929e46602943b0e4b58382255c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a37567d02bc8d700e7428ab8aa79ec5') in 0.065273 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/GeniusCrate_Games/Chair_sofa_set(interior)/Material/Chair_sofa_set/Round_sofa_mat.mat
-  artifactKey: Guid(2af7527a1d452cd41b60e82f51c2d240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GeniusCrate_Games/Chair_sofa_set(interior)/Material/Chair_sofa_set/Round_sofa_mat.mat using Guid(2af7527a1d452cd41b60e82f51c2d240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f4325defa49e31922c36a980bf28cf6') in 0.085074 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/SciFiProps/Material/ScifiBoxMat.mat
-  artifactKey: Guid(f7f6daec0e9cc0148b273681a814f31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SciFiProps/Material/ScifiBoxMat.mat using Guid(f7f6daec0e9cc0148b273681a814f31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '385fb455cebabfa72969f0f5716fb098') in 0.118563 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Misc/Rug.mat
-  artifactKey: Guid(bd43db1d1dee4bf4fbff367dc5cf6dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Materials/Misc/Rug.mat using Guid(bd43db1d1dee4bf4fbff367dc5cf6dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e6d08ee29fc64dde2a3d5d2e59305bc') in 0.099803 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Shiny Metal_01.mat
-  artifactKey: Guid(cf467f7163d9eb14ca56735e8000eccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Shiny Metal_01.mat using Guid(cf467f7163d9eb14ca56735e8000eccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38cd4e7048566a3ba3fcad394df52179') in 0.037475 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/AurynSky/Arcade Pack 01/Materials/TableTopNNeutronus.mat
-  artifactKey: Guid(8089a8f089f969a44942e0a501b6edb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Arcade Pack 01/Materials/TableTopNNeutronus.mat using Guid(8089a8f089f969a44942e0a501b6edb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3954b4719b6a5b802a507f3072021258') in 0.039067 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Red_01.mat
-  artifactKey: Guid(fc572b7f1f43b3a42810a51f8c8ee969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Red_01.mat using Guid(fc572b7f1f43b3a42810a51f8c8ee969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '123cdd8d1b149cb5a076f10e67b262f8') in 0.022664 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 1008.451591 seconds.
-  path: Assets/SciFiProps/Models/Tubes.fbx
-  artifactKey: Guid(5c5df3c073e0a5e439da610fb0c69ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SciFiProps/Models/Tubes.fbx using Guid(5c5df3c073e0a5e439da610fb0c69ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc9a5c1d5d7f9f7f0869fbe20ca91b86') in 0.062024 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000948 seconds.
-  path: Assets/SciFiProps/Models/Wall.fbx
-  artifactKey: Guid(08172d9ac29e77e4aa26003e54e8f3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SciFiProps/Models/Wall.fbx using Guid(08172d9ac29e77e4aa26003e54e8f3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a3b7711b9242e05c7f1768efddd1f8') in 0.040001 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Models/window_big_blocker.fbx
-  artifactKey: Guid(f1f8b886020c45442804bfb2a3995b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Models/window_big_blocker.fbx using Guid(f1f8b886020c45442804bfb2a3995b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e1bfc188f22104199a4f84e742bd12') in 0.049355 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Models/wall_small_no_side_full_LOD0.fbx
-  artifactKey: Guid(49147130b2b7fa449bbe4566bde06e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Models/wall_small_no_side_full_LOD0.fbx using Guid(49147130b2b7fa449bbe4566bde06e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dfa638842c550c9fae0ad33917753a7') in 0.157931 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Models/window_big_corner_far_plug.fbx
-  artifactKey: Guid(98bf02c8bc226a047b520b0e428a5703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Models/window_big_corner_far_plug.fbx using Guid(98bf02c8bc226a047b520b0e428a5703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc0f091cf7798b852d4d656093ced69') in 0.043554 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Models/window_big_corner_LOD1.fbx
-  artifactKey: Guid(9d05b15ebc07ee144a18b52300023b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Models/window_big_corner_LOD1.fbx using Guid(9d05b15ebc07ee144a18b52300023b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed41643b9bd80e8db6f9312db376584') in 0.123289 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Unity UI Samples/Models/vehicle_rcFlyer_clean.fbx
-  artifactKey: Guid(dd8c80a5a447f04418da146781b05fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity UI Samples/Models/vehicle_rcFlyer_clean.fbx using Guid(dd8c80a5a447f04418da146781b05fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '772caae51456dbbbaca4020de4b97e8e') in 0.141020 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 31
-========================================================================
-Received Import Request.
-  Time since last request: 0.462750 seconds.
-  path: Assets/VRInteractions/Examples/Assets/Models/Station02.fbx
-  artifactKey: Guid(00d9eaa06caab9c459ca5cca002627eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRInteractions/Examples/Assets/Models/Station02.fbx using Guid(00d9eaa06caab9c459ca5cca002627eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4abddda005608908ecc173c369e2de49') in 0.213172 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 27
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Models/shield_generator.fbx
-  artifactKey: Guid(fcf5cb51929ff5446bd8ae59de56ea02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Models/shield_generator.fbx using Guid(fcf5cb51929ff5446bd8ae59de56ea02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b18a4522519ad1be1eaa8d716cc2e76') in 0.075259 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/GeniusCrate_Games/Chair_sofa_set(interior)/Model/Chair_sofa_set/Sofa_02.fbx
-  artifactKey: Guid(5eacbfc9126fc034c830de6fe1bba8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GeniusCrate_Games/Chair_sofa_set(interior)/Model/Chair_sofa_set/Sofa_02.fbx using Guid(5eacbfc9126fc034c830de6fe1bba8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd101c54a3fe27baf0a585683647461ab') in 0.171488 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 30
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Models/sing_small.fbx
-  artifactKey: Guid(7364b60afe0462741bed3c6b259737d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Models/sing_small.fbx using Guid(7364b60afe0462741bed3c6b259737d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16b773502d50be9fc8e1adf4e5d4a267') in 0.034576 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000119 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Models/stairs_small_corner_no_emmision.fbx
-  artifactKey: Guid(794f1b589d175fa4ca1ee555f5766635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Models/stairs_small_corner_no_emmision.fbx using Guid(794f1b589d175fa4ca1ee555f5766635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae182e15692e70edd631e174827ba259') in 0.045629 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Models/sign.fbx
-  artifactKey: Guid(0408209e84f13ea468a6199efe18a92e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Models/sign.fbx using Guid(0408209e84f13ea468a6199efe18a92e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '075f4d0709306fa369b668873595d2b5') in 0.035576 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Models/stairs_small.fbx
-  artifactKey: Guid(bd0a17be9280439418203fe96116cee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Models/stairs_small.fbx using Guid(bd0a17be9280439418203fe96116cee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a4c586810796d36163227218b2d474') in 0.040498 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Models/stairs_big.fbx
-  artifactKey: Guid(1330a94ad5ebc0a4295b698b250f8ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Models/stairs_big.fbx using Guid(1330a94ad5ebc0a4295b698b250f8ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45b602b6a57aec7058ddef5b4cfa7ab7') in 0.043222 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Models/stairs_small_corner_with_emmision.fbx
-  artifactKey: Guid(7aea3c50060e0d446823b9a09fd0fb1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Models/stairs_small_corner_with_emmision.fbx using Guid(7aea3c50060e0d446823b9a09fd0fb1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abbeed8f3d99f2413a85e598d0dfce9d') in 0.049772 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/GeniusCrate_Games/Chair_sofa_set(interior)/Model/Chair_sofa_set/Sofa_01.fbx
-  artifactKey: Guid(b0148092706d3ff448fde3b710951e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GeniusCrate_Games/Chair_sofa_set(interior)/Model/Chair_sofa_set/Sofa_01.fbx using Guid(b0148092706d3ff448fde3b710951e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dd24ff827113317d32edfdac46ca1e8') in 0.070600 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Models/table_2.fbx
-  artifactKey: Guid(05e2bef7f8188c943aea2993fc97504b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Models/table_2.fbx using Guid(05e2bef7f8188c943aea2993fc97504b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd34b30cbfb1a81164878ec1d6835aa') in 0.057405 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Models/Sphere_16_extended.fbx
-  artifactKey: Guid(5dba31047b3c3764bb959e4b00c99740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Models/Sphere_16_extended.fbx using Guid(5dba31047b3c3764bb959e4b00c99740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83a9c9bb1707aba5a1eaa982dfbb173c') in 0.048234 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Models/stairs_big_with_emmision.fbx
-  artifactKey: Guid(ac0283f686985724b9b21574c3968db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Models/stairs_big_with_emmision.fbx using Guid(ac0283f686985724b9b21574c3968db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '036c06b244f5125b20c3eed75f6483d1') in 0.050469 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Models/Sphere_32_extended.fbx
-  artifactKey: Guid(b77b89f9c619298419251cf7f172fcb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Models/Sphere_32_extended.fbx using Guid(b77b89f9c619298419251cf7f172fcb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8a307ad0129dfd773013c0e77ba3099') in 0.031045 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Models/stairs_small_with_emmision.fbx
-  artifactKey: Guid(33adaeab20ce0114cb29d69b5324f02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Models/stairs_small_with_emmision.fbx using Guid(33adaeab20ce0114cb29d69b5324f02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '721990babe61e1e133a484258dbfb72e') in 0.039624 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000629 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Models/torpedo_docking_station_2_side.fbx
-  artifactKey: Guid(3766aa24a4449cc479232884d95db281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Models/torpedo_docking_station_2_side.fbx using Guid(3766aa24a4449cc479232884d95db281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2b986267ba533fa9f5b10a27219661e') in 0.045593 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Models/torpedo_docking_station_1_side.fbx
-  artifactKey: Guid(7e051df189fc7fe4b9ebfaa0a108f41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Models/torpedo_docking_station_1_side.fbx using Guid(7e051df189fc7fe4b9ebfaa0a108f41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1997d90dc8e0f606a5fa80b85d9a0334') in 0.032102 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 8.582668 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(37624774f247b4912a92ad23bc4d0ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(37624774f247b4912a92ad23bc4d0ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48a554471e5b1cba1c27e24e5825a7a5') in 0.002214 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 14.336445 seconds.
-  path: Assets/Scenes/main.unity
-  artifactKey: Guid(0b032646ca0cf63479c73a636dc8b218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/main.unity using Guid(0b032646ca0cf63479c73a636dc8b218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b69bd0018cb0a5e628d12aceeb8acb7') in 0.001347 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1772.214030 seconds.
-  path: Assets/PreFab/Room 1.prefab
-  artifactKey: Guid(1867db52f685cf84c82c36786aa0d069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PreFab/Room 1.prefab using Guid(1867db52f685cf84c82c36786aa0d069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f152bfae6f2b68b485b78f0364f70821') in 1.932583 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2650
+  Time since last request: 76514.085870 seconds.
+  path: Assets/PreFab/Room 2.prefab
+  artifactKey: Guid(53becfdac2b924e9bb546c5e50894437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PreFab/Room 2.prefab using Guid(53becfdac2b924e9bb546c5e50894437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af84721aa6e1dc9217de42e1d07671ac') in 0.927202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6755
