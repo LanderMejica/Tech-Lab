@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58042
+61190
 Successfully changed project path to: /Users/landermejica/Documents/Tech Lab/GitHub/Tech-Lab/VR BOWLING copy
 /Users/landermejica/Documents/Tech Lab/GitHub/Tech-Lab/VR BOWLING copy
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -56,13 +56,13 @@ Successfully changed project path to: /Users/landermejica/Documents/Tech Lab/Git
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8302262976] Host "[IP] 10.105.62.42 [Port] 0 [Flags] 2 [Guid] 1757146714 [EditorId] 1757146714 [Version] 1048832 [Id] OSXEditor(0,Landers-Laptop.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8442559168] Host "[IP] 192.168.0.163 [Port] 0 [Flags] 2 [Guid] 4268589670 [EditorId] 4268589670 [Version] 1048832 [Id] OSXEditor(0,Landers-Laptop.modem) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8302262976] Host "[IP] 10.105.62.42 [Port] 0 [Flags] 2 [Guid] 1757146714 [EditorId] 1757146714 [Version] 1048832 [Id] OSXEditor(0,Landers-Laptop.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8442559168] Host "[IP] 192.168.0.163 [Port] 0 [Flags] 2 [Guid] 4268589670 [EditorId] 4268589670 [Version] 1048832 [Id] OSXEditor(0,Landers-Laptop.modem) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 5.10 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 3.63 ms.
+Refreshing native plugins compatible for Editor in 21.18 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 3.40 ms.
 Initialize engine version: 2022.3.20f1 (61c2feb0970d)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/landermejica/Documents/Tech Lab/GitHub/Tech-Lab/VR BOWLING copy/Assets
@@ -76,49 +76,49 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56232
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56272
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.20f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.20f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.001389 seconds.
-- Loaded All Assemblies, in  0.254 seconds
+Registered in 0.001965 seconds.
+- Loaded All Assemblies, in  0.264 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 62 ms
+Android Extension - Scanning For ADB Devices 70 ms
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.283 seconds
-Domain Reload Profiling: 537ms
-	BeginReloadAssembly (67ms)
+- Finished resetting the current domain, in  0.312 seconds
+Domain Reload Profiling: 576ms
+	BeginReloadAssembly (85ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (36ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (33ms)
 	LoadAllAssembliesAndSetupDomain (114ms)
-		LoadAssemblies (66ms)
+		LoadAssemblies (86ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (112ms)
-			TypeCache.Refresh (112ms)
-				TypeCache.ScanAssembly (101ms)
+		AnalyzeDomain (111ms)
+			TypeCache.Refresh (110ms)
+				TypeCache.ScanAssembly (95ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (284ms)
+	FinalizeReload (312ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (239ms)
+		SetupLoadedEditorAssemblies (274ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (141ms)
+			InitializePlatformSupportModulesInManaged (168ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (70ms)
-			ProcessInitializeOnLoadMethodAttributes (24ms)
+			ProcessInitializeOnLoadAttributes (68ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -126,8 +126,8 @@ Domain Reload Profiling: 537ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.425 seconds
-Refreshing native plugins compatible for Editor in 1.43 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.478 seconds
+Refreshing native plugins compatible for Editor in 1.57 ms, found 3 plugins.
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
@@ -145,48 +145,48 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.454 seconds
-Domain Reload Profiling: 879ms
-	BeginReloadAssembly (85ms)
+- Finished resetting the current domain, in  0.469 seconds
+Domain Reload Profiling: 947ms
+	BeginReloadAssembly (84ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (19ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (9ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
 	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (280ms)
-		LoadAssemblies (157ms)
+	LoadAllAssembliesAndSetupDomain (339ms)
+		LoadAssemblies (232ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (158ms)
-			TypeCache.Refresh (142ms)
-				TypeCache.ScanAssembly (126ms)
+		AnalyzeDomain (146ms)
+			TypeCache.Refresh (131ms)
+				TypeCache.ScanAssembly (113ms)
 			ScanForSourceGeneratedMonoScriptInfo (10ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (454ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (469ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (315ms)
+		SetupLoadedEditorAssemblies (336ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (15ms)
-			SetLoadedEditorAssemblies (3ms)
+			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (45ms)
-			ProcessInitializeOnLoadAttributes (239ms)
-			ProcessInitializeOnLoadMethodAttributes (12ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (265ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (2ms)
 Launching external process: /Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.63 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.21 ms.
+Refreshing native plugins compatible for Editor in 1.77 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
 Unloading 4344 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (53.2 KB). Loaded Objects now: 4818.
-Memory consumption went from 239.3 MB to 239.2 MB.
-Total: 3.119709 ms (FindLiveObjects: 0.120500 ms CreateObjectMapping: 0.055583 ms MarkObjects: 2.748541 ms  DeleteObjects: 0.194375 ms)
+Unloading 50 unused Assets / (53.7 KB). Loaded Objects now: 4818.
+Memory consumption went from 239.9 MB to 239.8 MB.
+Total: 2.590750 ms (FindLiveObjects: 0.125625 ms CreateObjectMapping: 0.051334 ms MarkObjects: 2.305750 ms  DeleteObjects: 0.107125 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -203,9 +203,41 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 76514.085870 seconds.
-  path: Assets/PreFab/Room 2.prefab
-  artifactKey: Guid(53becfdac2b924e9bb546c5e50894437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PreFab/Room 2.prefab using Guid(53becfdac2b924e9bb546c5e50894437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af84721aa6e1dc9217de42e1d07671ac') in 0.927202 seconds
+  Time since last request: 57637.904449 seconds.
+  path: Assets/PreFab
+  artifactKey: Guid(5fccd6a6e132f4716ae28c94760bb72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PreFab using Guid(5fccd6a6e132f4716ae28c94760bb72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '979c7ff536f8a93069048d746b932ee6') in 0.001517 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6755
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 172.317220 seconds.
+  path: Assets/SciFiProps/Prefabs/Computer1.prefab
+  artifactKey: Guid(7f43056a042c7e34082157710165a75d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFiProps/Prefabs/Computer1.prefab using Guid(7f43056a042c7e34082157710165a75d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5444fdbf04191ca33d7a9e6a64c46454') in 0.142967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 30.536299 seconds.
+  path: Assets/VRInteractions/Prefabs/Gripped/JointPrefab 1.prefab
+  artifactKey: Guid(8439961a883356844a8ef045d8ceb7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRInteractions/Prefabs/Gripped/JointPrefab 1.prefab using Guid(8439961a883356844a8ef045d8ceb7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2856037a1a97dba928e65f3bb45e20b2') in 0.009612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 3.744063 seconds.
+  path: Assets/SciFiProps/Prefabs/ScifiBox.prefab
+  artifactKey: Guid(10fe2af0159f56e4395fa21beb64e559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFiProps/Prefabs/ScifiBox.prefab using Guid(10fe2af0159f56e4395fa21beb64e559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da457a6150c01ccfb18f78cf26f9153e') in 0.041135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.605275 seconds.
+  path: Assets/VRInteractions/Prefabs/Gripped/VRLeverGripped.prefab
+  artifactKey: Guid(275696142da8dfb4490f9b75a436f749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRInteractions/Prefabs/Gripped/VRLeverGripped.prefab using Guid(275696142da8dfb4490f9b75a436f749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6430c5341682da8ce511cff205f0e074') in 0.012868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 64
